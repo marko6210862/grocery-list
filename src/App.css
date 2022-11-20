@@ -1,0 +1,60 @@
+body{
+  background-color: #62c2c8;
+}
+
+.App {
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  }
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Conteiner{
+  display: flex; 
+  justify-content: center;
+}
+
+.Add{
+  margin-top: 10px;
+  background-color: green;
+}
+
+.Del{
+  background-color: rgb(238, 23, 7);
+ }
+
+.btn {
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 14px;
+  margin-top: 5px;
+}
+
+img{
+  border-radius: 50%;
+}
